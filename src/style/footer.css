@@ -1,0 +1,14 @@
+h4.line-footer {
+    position: relative;
+}
+
+h4.line-footer:after {
+    display: block;
+    content: '';
+    width: 25%;
+    height: 2px;
+    background: #002060;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
